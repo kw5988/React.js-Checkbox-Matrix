@@ -1,0 +1,116 @@
+/**
+   This CSS style file is for the CS317 Fall 2023 Project 2 Checkbox Matrix.
+   It is loosely adpated from Homework Project 0 from the EdX Harvard University course
+   CS50's Mobile App Development with React Native:
+   https://www.edx.org/learn/react-native/harvard-university-cs50-s-mobile-app-development-with-react-native
+
+   Author: Lyn Turbak
+   Date: Thu 2023/09/21
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+}
+
+.center {
+  align-self: center;
+}
+
+.title,
+.button {
+  flex: none;
+}
+
+.title {
+  margin: 10px;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+#controlPanel {
+  margin: 5px;
+  background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#statePanel {
+  margin: 5px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-wrap; /* displays multiline text */
+}
+
+#inputDiv {
+  /* Used only in Checkbox Matrix 2 */
+  display: flex;
+  margin: 10px 10px;
+}
+
+input[type="text"] {
+  width: 40px;
+}
+
+#validityError {
+  margin: 0px 5px;
+  color: red;
+}
+
+#button {
+  display: flex;
+}
+
+.choice {
+  margin: 5px 15px 5px 10px;
+}
+
+/*
+input[type='radio'] {
+    margin: 5px 5px 5px 20px;
+}
+*/
+
+td {
+  width: 35px;
+  height: 35px;
+  background-color: pink;
+  text-align: center;
+  flex: none;
+}
+
+/*
+tr {
+    flex: none; 
+}
+*/
+
+table {
+  padding: 5px;
+  /* display: flex; */
+  background-color: blue;
+}
